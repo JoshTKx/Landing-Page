@@ -1,0 +1,10 @@
+.hero,
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    
+}
+
+.hero-image{
+    width: 300px;
+}
