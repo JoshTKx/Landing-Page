@@ -13,8 +13,8 @@
 }
 .hero{
     flex-direction: column;
-    padding: 8px 80px 48px 80px;
-    ;
+    padding: 30px 300px 30px 300px;
+    
 }
 .top{
     display: flex;
@@ -29,12 +29,17 @@
     font-weight: bold;
     
 }
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-weight: bold;
+}
 ul{
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     display: flex;
-    gap: 16px;
+    gap: 48px;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -49,27 +54,31 @@ ul{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    flex-wrap: wrap;
 }
 
 .subtext{
     font-size: 18px;
     color: #E5E7EB;
+    flex-wrap: wrap;
 }
 
 button{
     background-color: #3882F6;
     color: #f9faf8;
+    font-size: 18px;
+    font-weight: bold;
     width: 100px;
-    padding: 8 16px;
+    padding: 16 32px;
     border-radius: 4px;
     border: none;
 }
 .content{
     display: flex;
-    gap: 16px;
+    gap: 48px;
 }
 
 
 .hero-image{
-    width: 300px;
+    width: 600px
 }
