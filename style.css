@@ -39,6 +39,9 @@ a{
     color: #E5E7EB;
     font-weight: bold;
 }
+a:hover{
+    text-decoration: underline;
+}
 ul{
     list-style-type: none;
     margin: 0px;
@@ -80,9 +83,9 @@ button{
 }
 .content{
     display: flex;
-    gap: 48px;
+    gap: 100px;
     justify-content: space-between;
-    align-items: centers;
+    align-items: center;
 }
 
 
